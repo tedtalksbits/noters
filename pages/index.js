@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
 import Folder from "../components/Folder";
-import Note from "../components/Note";
 import styles from "../styles/Home.module.css";
+import Add from "../components/Add";
 
 export default function Home() {
    return (
@@ -15,7 +14,9 @@ export default function Home() {
 
          <main className={styles.main}>
             <Folder id="new" />
+            <Folder id="old" />
          </main>
+         <Add />
       </div>
    );
 }

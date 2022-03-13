@@ -26,14 +26,22 @@ const Folder = ({ id }) => {
          <Box>
             <Flex>
                <Link href={`/${id}`}>
-                  <p>{folderName.title}</p>
+                  {isEditing ? "" : <p>{folderName.title}</p>}
                </Link>
                {isEditing && (
-                  <input
-                     type="text"
-                     value={folderName.title}
-                     onChange={handleChange}
-                  />
+                  <form
+                     onSubmit={(e) => {
+                        handleIsEditing();
+                        e.preventDefault();
+                     }}
+                  >
+                     <input
+                        type="text"
+                        value={folderName.title}
+                        onChange={handleChange}
+                     />
+                     <button type="submit" value="" hidden />
+                  </form>
                )}
                <MoreVertIcon onClick={handleShowActionButtons} />
                {showActionButtons && (
