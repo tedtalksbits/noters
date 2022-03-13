@@ -14,7 +14,7 @@ export default function Home() {
          </Head>
 
          <main className={styles.main}>
-            <Folder title="This is a folder" />
+            <Folder id="new" />
          </main>
       </div>
    );
