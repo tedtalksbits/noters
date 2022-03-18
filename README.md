@@ -13,8 +13,8 @@ Noter is a collaborative project
 - [x] - Find/create a design language
 - [x] - app mockups
 - [x] - initialize Next Project
-- [] - app features
-    - user customizability
-    - persist user data
-- [] - testing
-- [] - deploy
+- [ ] - app features
+        - user customizability
+        - persist user data
+- [ ] - testing
+- [ ] - deploy
