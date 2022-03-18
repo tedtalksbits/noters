@@ -14,7 +14,7 @@ Noter is a collaborative project
 - [x] - app mockups
 - [x] - initialize Next Project
 - [ ] - app features
-        - user customizability
-        - persist user data
+        1. user customizability
+        2. persist user data
 - [ ] - testing
 - [ ] - deploy
