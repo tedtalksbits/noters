@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3050",
     "lint": "next lint"
   },
   "dependencies": {
@@ -15,6 +15,7 @@
     "@mui/icons-material": "^5.5.0",
     "framer-motion": "^6.2.8",
     "next": "12.1.0",
+    "phosphor-react": "^1.4.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
